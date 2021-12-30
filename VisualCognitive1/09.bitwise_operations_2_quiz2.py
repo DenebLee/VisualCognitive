@@ -1,5 +1,5 @@
 # [Quiz] googloLogo.png 파일의 파탕을 검정색으로 변환하고,
-# 구글 로고의 size를 절반으로 줄여서, bit_test.jpb 파일의 가운데에 위치시키자.
+# 구글 로고의 size를 절반으로 줄여서, bit_test.jpb 파일의 가운데에 위치시키기
 
 import cv2
 import numpy as np
@@ -23,6 +23,7 @@ roi = img[starty:starty+logo_rows, startx:startx+logo_cols]
 roi[mask.astype(bool)] = logo[mask.astype(bool)]
 # equivalent with cv2.copyTo(src, mask, dst)
 # cv2.copyTo(logo, mask, roi)
+# 로드 
 
 cv2.imshow('res', img)
 # cv2.imshow('google', logo)
