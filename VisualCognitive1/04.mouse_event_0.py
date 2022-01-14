@@ -1,6 +1,6 @@
 ## cv2 EVENT
 # https://opencv-python.readthedocs.io/en/latest/doc/04.drawWithMouse/drawWithMouse.html
-# https://cinema4dr12.tistory.com/809
+# events 변수 체크 필수 
 
 import cv2
 
